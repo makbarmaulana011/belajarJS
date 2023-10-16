@@ -1,0 +1,82 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url("pulaupadar.webp");
+        text-align: center;
+    }
+  
+    .container {
+        background-color: #fff;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+    }
+  
+        /* Style the title */
+    h2 {
+        font-size: 30px;
+        color: #333;
+    }
+  
+        /* Style the input field and submit button */
+    #inbox-box {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+  
+    button {
+        background-color: #333;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+  
+    button:hover {
+        background-color: #555;
+    }
+  
+        /* Style the task list */
+    #list-container {
+        list-style: none;
+        padding: 0;
+    }
+  
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f9f9f9;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 4px;
+    }
+  
+        /* Style task text */
+    li span {
+        flex-grow: 1;
+        margin-right: 10px;
+        text-align: left;
+    }
+  
+        /* Style delete button for tasks */
+    li button {
+        background-color: #ff3333;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+  
+    li button:hover {
+        background-color: #ff6666;
+    }

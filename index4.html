@@ -1,17 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List App</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
 
-</body>
-<form onsubmit="return false">
-    <input type="text" id="input form" value="">
-    <button id="tombol_form">Tekan</button>  
-</form>
-<p>Hasil Teks<span id="hasil"></span></p>
-     <script src="main.js"></script>
-</body>
-</html>
+    </head>
+    <body>
+    <!-- <p>id="demo"</p>
+    <form onsubmit="return false">
+    <input type="text" id="input_form" value="">
+    <button id="tombol_form">Tekan</button>
+    </form>
+    <p>Hasil Teks <span id="hasil"></span></p> -->
+
+
+    <div class="container">
+        <div class="chall">
+            <h2>My To-Do List</h2>
+            <input type="text" id="inbox-box" placeholder="">
+            <button onclick="addTask()">Submit</button>
+            <ul style="text-decoration: none;" id="list-container"></ul>
+        </div>
+    </div>
+    <ul style="text-decoration: none;" id="list-container"></ul>
+    <script src="main.js"></script>
+
+    </body>
+    </html>
