@@ -2,8 +2,11 @@
         margin: 0px;
         padding: 0px;
         font-family: 'Times New Roman', Times, serif;
-        background-image: url("pulaupadar.webp");
         text-align: center;
+    }
+
+    body{
+        background-image: url("pulaupadar.jpg");
     }
   
     .container {
@@ -29,10 +32,11 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         font-size: 16px;
+        box-sizing: border-box;
     }
   
     button {
-        background-color: #333;
+        background-color: wheat;
         color: black;
         border: none;
         padding: 10px 20px;
@@ -41,7 +45,7 @@
     }
   
     button:hover {
-        background-color: #555;
+        background-color: red;
     }
   
         /* Style the task list */
